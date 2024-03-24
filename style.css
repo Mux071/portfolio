@@ -7,7 +7,7 @@
 }
 body{
     color: #ededed;
-    background: #081b29;
+    background: #290826;
 }
 .header{
     position: fixed;
@@ -15,7 +15,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10px;
-    background: #051129;
+    background: #052529;
     /* background: #008080; */
     display: flex;
     justify-content: space-between;
@@ -721,4 +721,56 @@ section{
         transform: translateY(0px);
         opacity: 1;
     }
+}
+.about-img {
+    background-color:#290826;
+}
+.item{
+    width: 300px;
+}
+
+
+h1{
+    color: rgb(128, 87, 0);
+    text-transform: lowercase;
+    padding: 20px 0;
+} 
+.form{
+    display: grid;
+    place-content: center;
+
+
+}
+.form-group{
+
+    width: auto;
+    height: auto;
+    margin: 20px 0;
+}
+.form-group input{
+    width: auto;
+    height: auto;
+}
+.form-group textarea{
+    border: none;
+    outline: none;
+    width: auto;
+    resize: none;
+    font-size: 1em;
+
+
+}
+#btn{
+    width: 40%;
+    height: 40px;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #291500;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgba(0,0,0,0.5);
 }
